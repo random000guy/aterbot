@@ -7,7 +7,7 @@
   "action": {
     "retryDelay": 5000,
     "messageInterval": 10000,  
-    "disconnectInterval": 20000,  
+    "disconnectInterval": 200000,  
     "holdDuration": 5000,
     "commands": ["forward", "back", "left", "right"]
   }
