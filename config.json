@@ -1,15 +1,14 @@
 {
-	"client": {
-		"host": "clsxc982.aternos.me",
-		"port": "25147",
-		"username": "AFKBOT"
-	},
-	
-	"! DO NOT EDIT BELOW !": "ONLY IF YOU KNOW WHAT YOU ARE DOING",
-	"logLevel": ["error", "log", "debug"],
-	"action": {
-		"commands": ["forward", "back", "left", "right", "jump"],
-		"holdDuration": 1000,
-		"retryDelay": 5000
-	}
+  "client": {
+    "host": "localhost",
+    "port": 25565,
+    "username": "AFKBot"
+  },
+  "action": {
+    "retryDelay": 5000,
+    "messageInterval": 10000,  // Time in milliseconds to send a message
+    "disconnectInterval": 20000,  // Time in milliseconds to disconnect the bot
+    "holdDuration": 5000,
+    "commands": ["forward", "back", "left", "right"]
+  }
 }
