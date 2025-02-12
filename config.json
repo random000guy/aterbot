@@ -6,8 +6,8 @@
   },
   "action": {
     "retryDelay": 5000,
-    "messageInterval": 10000,  // Time in milliseconds to send a message
-    "disconnectInterval": 20000,  // Time in milliseconds to disconnect the bot
+    "messageInterval": 10000,  
+    "disconnectInterval": 20000,  
     "holdDuration": 5000,
     "commands": ["forward", "back", "left", "right"]
   }
