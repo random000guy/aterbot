@@ -1,7 +1,7 @@
 {
   "client": {
     "host": "clsxc982.aternos.me",
-    "port": 25147,
+    "port": "25147",
     "username": "AFKBot"
   },
   "action": {
