@@ -2,10 +2,11 @@
   "client": {
     "host": "clsxc982.aternos.me",
     "port": "25147",
-    "username": "AFKBot"
+    "username": "AFKBOT"
   },
   "action": {
     "retryDelay": 5000,
+     "commands": ["forward", "back", "left", "right"],
     "messageInterval": 10000,  
     "disconnectInterval": 200000,  
     "holdDuration": 5000,
