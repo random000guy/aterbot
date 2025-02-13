@@ -5,11 +5,10 @@
     "username": "AFKBOT"
   },
   "action": {
-    "retryDelay": 5000,
- "commands": ["forward", "back", "left", "right", "jump"],
-		"holdDuration": 5000,
-		"retryDelay": 15000,
-    "messageInterval": 10000,  
-    "disconnectInterval": 200000,  
+    "commands": ["forward", "back", "left", "right", "jump"],
+    "holdDuration": 5000,
+    "retryDelay": 15000,
+    "messageInterval": 10000,
+    "disconnectInterval": 200000
   }
 }
